@@ -53,6 +53,7 @@ EOF
     vim "$note"
 
     # Commit and push the note.
+    git add "$note"
     git commit -s "$note"
     git push origin $branch
 ) || exit 1
