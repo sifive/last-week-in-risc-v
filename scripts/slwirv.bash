@@ -14,7 +14,7 @@ do
     shift 2
     ;;
   --final)
-    to=("sw-dev@groups.riscv.org" "hw-dev@groups.riscv.org" "isa-dev@groups.riscv.org")
+    to=("sw-dev@groups.riscv.org" "hw-dev@groups.riscv.org" "isa-dev@groups.riscv.org" "last-week-in-risc-v@sifive.com")
     title="Last Week in RISC-V"
     date="now"
     shift 1
